@@ -1,24 +1,44 @@
-*   {
+body    {
     background-color: #f3d6d6;
+    font-family: 'Menseal', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.navbar {
+    justify-content: right;
+    display: inline-flex;
+    margin-top: 3%;
+    border-right: 0;
+    background-color: #0a3620;
+    color: #b89696;
+    border: 5px solid #64917a;
+    align-items: center;
+    width: 40%;
+    border-right: 0;
+    justify-content: space-evenly;
+}
+
+div .blank  {
+    width: 10%;
+}
+
+header  {
+    font-size: 40px;
+    background-color: #0a3620;
+    color: #b89696;
+    border: 5px solid #64917a;
+    border-left: 0;
+    padding-left: 5%;
+    margin-top: 3%;
+    width: 60%;
 }
 
 @font-face {
     font-family: 'Menseal';
     src: url(../fonts/Menseal-Black.ttf) format('truetype');
 }
-
-header  {
-    font-family: 'Menseal', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 40px;
-    padding-left: 3%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    margin-top: 2%;
-    margin-right: 5%;
-    background-color: #0a3620;
-    color: #b89696;
-    /* text-shadow: #dfdfdfa2 3px 3px 5px; */
-    border: 5px solid #64917a;
-    border-left: 0px;
-}
-
